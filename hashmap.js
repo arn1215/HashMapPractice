@@ -20,3 +20,17 @@ function hash(str) {
 const hashMod = (key) => {
   return hash(key) % data.length;
 }
+
+
+
+
+
+
+// INSERT into a hash table
+
+class KeyValuePair {
+  constructor(key, value) {
+    this.key = key;
+    this.value = value;
+  }
+}
